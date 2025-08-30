@@ -148,7 +148,7 @@ Repositório mantido em: [CSI-Sec-Course](https://github.com/ljr-ita/csi-sec-cou
   author       = {Autor(es) do minicurso},
   title        = {SBSeg2025 - Minicurso 4: Wi-Fi Sensing e CSI aplicados à Cibersegurança: Fundamentos, Aplicações e Prática},
   year         = {2025},
-  howpublished = {\url{https://000626cf-7296-4b40-ae6b-d1a550c81174.usrfiles.com/ugd/000626_ae6260b44d4945b0afdfdee0793c24ee.pdf}},
-  note         = {Acessado em: 30 ago 2025}
+  howpublished = {\url{https://}},
+  note         = {Acessado em: XX xxx 2025}
 }
 ```
