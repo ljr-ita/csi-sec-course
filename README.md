@@ -68,7 +68,6 @@ csi-sec-course/
 │   ├── 01-conversao.ipynb  # Conversão de dados CSI
 │   └── 02-preprocess.ipynb # Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
 ├── DB_Gender               # Banco de dados para rodar o Dashboard
-├── datasets/              # Exemplos de dados coletados
 └── README.md              # Este documento
 ```
 
