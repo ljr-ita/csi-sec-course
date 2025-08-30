@@ -116,7 +116,7 @@ Este minicurso é voltado para:
 
 ## 📅 SBSeg 2025 - 01 a 04 de setembro de 2025
 
-Este minicurso faz parte do **Simpósio Brasileiro de Cibersegurança (SBSeg 2025)**, um dos maiores eventos da área no Brasil.
+Este minicurso faz parte do **Simpósio Brasileiro de Cibersegurança (SBSeg)**, um dos maiores eventos da área no Brasil.
 
 ---
 
