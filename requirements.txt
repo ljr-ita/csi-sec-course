@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+graphviz
+joblib
+duckdb
+ipykernel
+csiread
+streamlit
+plotly

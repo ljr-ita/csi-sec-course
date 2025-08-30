@@ -1,0 +1,50 @@
+Relatório da Validação Cruzada:
+
+Model: Decision Tree
+Tempo de construção: 1.917795 segundos
+              precision    recall  f1-score   support
+
+      Mulher     0.9938    0.9981    0.9959      1600
+       Homem     0.9981    0.9938    0.9959      1600
+
+    accuracy                         0.9959      3200
+   macro avg     0.9959    0.9959    0.9959      3200
+weighted avg     0.9959    0.9959    0.9959      3200
+
+------------------------------------------------------------
+Model: kNN
+Tempo de construção: 0.025142 segundos
+              precision    recall  f1-score   support
+
+      Mulher     0.9894    0.9956    0.9925      1600
+       Homem     0.9956    0.9894    0.9925      1600
+
+    accuracy                         0.9925      3200
+   macro avg     0.9925    0.9925    0.9925      3200
+weighted avg     0.9925    0.9925    0.9925      3200
+
+------------------------------------------------------------
+Model: Naive Bayes
+Tempo de construção: 0.001018 segundos
+              precision    recall  f1-score   support
+
+      Mulher     0.9740    0.7488    0.8466      1600
+       Homem     0.7959    0.9800    0.8784      1600
+
+    accuracy                         0.8644      3200
+   macro avg     0.8850    0.8644    0.8625      3200
+weighted avg     0.8850    0.8644    0.8625      3200
+
+------------------------------------------------------------
+Model: SVM Linear
+Tempo de construção: 0.025724 segundos
+              precision    recall  f1-score   support
+
+      Mulher     0.7560    0.7475    0.7517      1600
+       Homem     0.7503    0.7588    0.7545      1600
+
+    accuracy                         0.7531      3200
+   macro avg     0.7532    0.7531    0.7531      3200
+weighted avg     0.7532    0.7531    0.7531      3200
+
+------------------------------------------------------------
