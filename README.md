@@ -125,7 +125,7 @@ Este minicurso faz parte do **Simpósio Brasileiro de Cibersegurança (SBSeg 202
 Autores:
 
 **Felipe Silveira de Almeida** (ITA e Exército Brasileiro),  
-**Eduardo Fabrício Gomes Trindade** (ITA e e Exército Brasileiro),  
+**Eduardo Fabrício Gomes Trindade** (ITA e Exército Brasileiro),  
 **Gioliano de Oliveira Braga** (ITA),  
 **Ágney Lopes Roth Ferraz** (ITA),  
 **Giovani Hoff da Costa** (ITA),  
