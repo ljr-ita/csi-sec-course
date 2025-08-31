@@ -236,7 +236,3 @@ Gioliano de Oliveira Braga (ITA),
 Giovani Hoff da Costa (ITA),
 Gustavo Cavalcanti Morais (ITA) e
 Lourenço Alves Pereira Júnio (ITA).
-
----
-
-**🎉 Dashboard criado com sucesso! Aproveite a análise!**
