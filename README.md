@@ -62,8 +62,8 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
 ```bash
 csi-sec-course/
 │
-├── esp32/                #Tutoriais e exemplos para ESP32 (esp_csi_tool)
-├── raspberry/            #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
+├── ESP/                  #Tutoriais e exemplos para ESP32 (esp_csi_tool)
+├── Rasp/                 #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
 ├── notebooks/            #Jupyter Notebooks e Dashboard
 │   ├── conversao.ipynb   #Conversão de dados CSI em amplitude e fase
 │   └── Preprocessing     #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
