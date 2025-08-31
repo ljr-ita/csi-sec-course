@@ -62,13 +62,14 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
 ```bash
 csi-sec-course/
 │
-├── esp32/                 # Tutoriais e exemplos para ESP32
-├── raspberry/             # Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
-├── notebooks/             # Jupyter Notebooks e Dashboard
-│   ├── 01-conversao.ipynb  # Conversão de dados CSI
-│   └── 02-preprocess.ipynb # Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
-├── DB_Gender               # Banco de dados para rodar o Dashboard
-└── README.md              # Este documento
+├── esp32/                #Tutoriais e exemplos para ESP32 (esp_csi_tool)
+├── raspberry/            #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
+├── notebooks/            #Jupyter Notebooks e Dashboard
+│   ├── conversao.ipynb   #Conversão de dados CSI em amplitude e fase
+│   └── Preprocessing     #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
+├── DB_Gender             #Banco de dados para rodar o Dashboard
+├── datasets              #Banco de dados handpass e spider-sense
+└── README.md
 ```
 
 ---
