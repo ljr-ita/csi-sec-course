@@ -229,10 +229,10 @@ Os melhores atributos identificados pela análise:
 
 ## 📄 Créditos
 
-Felipe Silveira de Almeida (ITA e Exército Brasileiro),
-Eduardo Fabrício Gomes Trindade (ITA e Exército Brasileiro),
-Gioliano de Oliveira Braga (ITA),
-Ágney Lopes Roth Ferraz (ITA),
-Giovani Hoff da Costa (ITA),
-Gustavo Cavalcanti Morais (ITA) e
-Lourenço Alves Pereira Júnio (ITA).
+Felipe Silveira de Almeida (ITA e Exército Brasileiro),  
+Eduardo Fabrício Gomes Trindade (ITA e Exército Brasileiro),  
+Gioliano de Oliveira Braga (ITA),  
+Ágney Lopes Roth Ferraz (ITA),  
+Giovani Hoff da Costa (ITA),  
+Gustavo Cavalcanti Morais (ITA) e  
+Lourenço Alves Pereira Júnio (ITA).  
