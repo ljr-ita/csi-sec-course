@@ -227,17 +227,15 @@ Os melhores atributos identificados pela análise:
 - **Exportação de modelos** em diferentes formatos
 - **API REST** para predições externas
 
-## 📞 Suporte
+## 📄 Créditos
 
-Para dúvidas ou problemas:
-1. Verifique este README
-2. Consulte a documentação do Streamlit
-3. Verifique os logs de erro no terminal
-4. Teste com datasets menores primeiro
-
-## 📄 Licença
-
-Este projeto é parte do trabalho acadêmico SBSeg2025 e utiliza dados CSI para classificação de gênero.
+Felipe Silveira de Almeida (ITA e Exército Brasileiro),
+Eduardo Fabrício Gomes Trindade (ITA e Exército Brasileiro),
+Gioliano de Oliveira Braga (ITA),
+Ágney Lopes Roth Ferraz (ITA),
+Giovani Hoff da Costa (ITA),
+Gustavo Cavalcanti Morais (ITA) e
+Lourenço Alves Pereira Júnio (ITA).
 
 ---
 
