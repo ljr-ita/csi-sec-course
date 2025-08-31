@@ -63,9 +63,11 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
 csi-sec-course/
 │
 ├── ESP/                  #Tutoriais e exemplos para ESP32 (esp_csi_tool)
+│   ├── Conversor_*.ipynb   #Conversão de dados CSI em amplitude e fase (para ESP)
 ├── Rasp/                 #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
+│   ├── Conversor_*.ipynb   #Conversão de dados CSI em amplitude e fase (para Rasp)
 ├── notebooks/            #Jupyter Notebooks e Dashboard
-│   ├── conversao.ipynb   #Conversão de dados CSI em amplitude e fase
+│   ├── app.py            #Dashboard usando o banco de dados 'DB_Gender'
 │   └── Preprocessing     #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
 ├── DB_Gender             #Banco de dados para rodar o Dashboard
 ├── datasets              #Banco de dados handpass e spider-sense
