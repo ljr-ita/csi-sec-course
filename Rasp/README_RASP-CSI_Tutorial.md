@@ -27,7 +27,7 @@ sudo ./capture_csi.sh 3 20 /home/pi/csi.pcap 36/40 15
 `3` $\rightarrow$ Time waiting to start capture;  
 `20` $\rightarrow$ Capture about to 20 seconds;  
 `/home/pi/csi_captured.pcap` $\rightarrow$ Path for outpu file;  
-`36/40` $\rightarrow$ Channel/Bandwith (that values must to be the same setting up in script)
-`15` $\rightarrow$ Power of TX in dBm
+`36/40` $\rightarrow$ Channel/Bandwith (that values must to be the same setting up in script)  
+`15` $\rightarrow$ Power of TX in dBm  
 
 
