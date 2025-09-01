@@ -127,13 +127,13 @@ Este minicurso faz parte do **Simpósio Brasileiro de Cibersegurança (SBSeg 202
 
 Autores:
 
-**Felipe Silveira de Almeida** (ITA e Exército Brasileiro),  `felipefsa@ita.br`
-**Eduardo Fabrício Gomes Trindade** (ITA e Exército Brasileiro),  `trindade@ita.br`
-**Gioliano de Oliveira Braga** (ITA),  `giolianobraga@ita.br`
-**Ágney Lopes Roth Ferraz** (ITA),  `roth@ita.br`
+**Felipe Silveira de Almeida** (ITA e Exército Brasileiro),  `felipefsa@ita.br`  
+**Eduardo Fabrício Gomes Trindade** (ITA e Exército Brasileiro),  `trindade@ita.br`  
+**Gioliano de Oliveira Braga** (ITA),  `giolianobraga@ita.br`  
+**Ágney Lopes Roth Ferraz** (ITA),  `roth@ita.br`  
 **Giovani Hoff da Costa** (ITA),  
 **Gustavo Cavalcanti Morais** (ITA) e  
-**Lourenço Alves Pereira Júnio** (ITA).  `ljr@ita.br`
+**Lourenço Alves Pereira Júnio** (ITA).  `ljr@ita.br`  
 
 
 Repositório mantido em: [CSI-Sec-Course](https://github.com/ljr-ita/csi-sec-course)
