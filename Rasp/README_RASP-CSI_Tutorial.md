@@ -18,7 +18,7 @@ iperf -c 192.168.1.1 -u -b 500M -t 60 -i 1 -l 1400 -p 5500
 `-l` $\rightarrow$  ; e  
 `-p` $\rightarrow$ Port to listen (the same setting up in Raspberry Pi). 
 
-Let's to capture CSI data running a script (that script must to be inside your Raspberry):
+Let's to capture CSI data running a script (that [script](https://github.com/ljr-ita/csi-sec-course/blob/main/Rasp/capture_csi.sh) must to be inside your Raspberry):
 
 ```
 sudo ./capture_csi.sh 3 20 /home/pi/csi.pcap 36/40 15
@@ -27,7 +27,13 @@ sudo ./capture_csi.sh 3 20 /home/pi/csi.pcap 36/40 15
 `3` $\rightarrow$ Time waiting to start capture;  
 `20` $\rightarrow$ Capture about to 20 seconds;  
 `/home/pi/csi_captured.pcap` $\rightarrow$ Path for outpu file;  
-`36/40` $\rightarrow$ Channel/Bandwith (that values must to be the same setting up in script)  
+`36/40` $\rightarrow$ Channel/Bandwith (that values must to be the same setting up in [script](https://github.com/ljr-ita/csi-sec-course/blob/main/Rasp/capture_csi.sh))  
 `15` $\rightarrow$ Power of TX in dBm  
 
+To access the output file created after to capture you can create a SFTP server:
+  1. Connect Raspberry in your networking by cable ou wireless;  
+  2. Check the Raspberry IP with `ifconfig`;
+  3. Create a SFTP link `sftp <$USER>@<Raspberry_IP>`;
+  4. Check all files in current folder (mus be the path when you captured CSI data) `ls -F | grep -v /`;
+  5. Get the file `get <file_name.pcap>`.
 
