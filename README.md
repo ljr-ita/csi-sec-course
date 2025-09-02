@@ -29,7 +29,7 @@ Ao final, os participantes terão compreendido:
 
 O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prático**, cobrindo desde a configuração de hardware até os experimentos em ML:
 
-1. **Configuração dos dispositivos** → Vide [recursos](#recursos-de-apoio)
+1. **Configuração dos dispositivos** → Vide [recursos](#-recursos-de-apoio)
 
    * ESP32 com [esp-csi](https://github.com/espressif/esp-csi)
    * Raspberry Pi4 com [Nexmon CSI](https://github.com/seemoo-lab/nexmon_csi)
