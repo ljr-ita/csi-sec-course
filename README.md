@@ -39,12 +39,12 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
    * Utilização do `esp_csi_tool.py` (ESP32)
    * Utilização do `nexmon_csi` (Raspberry Pi4 - **BCM43455c0**)
 
-3. **Conversão dos dados**
+3. **Conversão dos dados** em [conversor](https://colab.research.google.com/drive/1FRaAT8DRVYhVs-cR9nTWevtEcgdXA9Oj?usp=sharing)
 
    * Transformação de dados CSI **complexos/binários** para **amplitude e fase**
    * Scripts em **Python + Jupyter Notebooks**
 
-4. **Filtros, Pré-Processamento e Visualização dos Dados**
+4. **Filtros, Pré-Processamento e Visualização dos Dados** em [filter](https://colab.research.google.com/drive/1IvP7TYWbTOz2F1XwMMLiYumFG7ECS0Bu?usp=sharing)
 
    * Remoção de **outliers**
    * Normalização e preparação para algoritmos de ML
@@ -63,7 +63,7 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
 csi-sec-course/
 │
 ├── ESP/                  #Tutoriais e firmware para ESP32 (esp_csi_tool)
-│   ├── Conversor_*.ipynb #Conversão de dados CSI em amplitude e fase (para ESP)
+│   ├── Conversor_*.ipynb #Conversão de dados CSI em amplitude e fase (para ESP) 
 │   └── filter_esp.ipynb  #Filtro com gráficos para ESP (eliminação de outliers)
 ├── Rasp/                 #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
 │   ├── Conversor_*.ipynb #Script de captura de dados CSI e conversão em amplitude e fase (para Rasp)
