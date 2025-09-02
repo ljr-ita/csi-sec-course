@@ -64,8 +64,10 @@ csi-sec-course/
 │
 ├── ESP/                  #Tutoriais e firmware para ESP32 (esp_csi_tool)
 │   ├── Conversor_*.ipynb #Conversão de dados CSI em amplitude e fase (para ESP)
+│   └── filter_esp.ipynb  #Filtro com gráficos para ESP (eliminação de outliers)
 ├── Rasp/                 #Tutoriais e exemplos para Raspberry Pi4 (Nexmon CSI)
 │   ├── Conversor_*.ipynb #Script de captura de dados CSI e conversão em amplitude e fase (para Rasp)
+│   └── filter_rasp.ipynb #Filtro com gráficos para Rasp (eliminação de outliers)
 ├── notebooks/            #Jupyter Notebooks e Dashboard
 │   ├── app.py            #Dashboard usando o banco de dados 'DB_Gender'
 │   └── Preprocessing     #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
