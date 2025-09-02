@@ -105,7 +105,7 @@ csi-sec-course/
 
 3. Execute o Dashboard no **Google Colab** em [dash_link](https://colab.research.google.com/drive/1SRxBt9UCCeovy88kPLbYjfSSCQKyL_f4?usp=sharing).
 
-4. Explore os exemplos de **visualização e classificação** com ML em [notebook](https://colab.research.google.com/drive/1zyK-idHJtt67Nl79PyYs0i8G7ohAKOFr?usp=sharing)
+4. Explore os exemplos de **visualização e classificação** com ML em [notebook](https://colab.research.google.com/drive/1n7FFGbKWFlyAUlM74drRR6mJsy-prQG1?usp=sharing)
 
 ---
 
