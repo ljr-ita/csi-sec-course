@@ -32,7 +32,7 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
 1. **Configuração dos dispositivos** → Vide [recursos](#-recursos-de-apoio)
 
    * ESP32 com [esp-csi](https://github.com/espressif/esp-csi)
-   * Raspberry Pi4 com [Nexmon CSI](https://github.com/seemoo-lab/nexmon_csi)
+   * Raspberry Pi4 com [Nexmon CSI](https://github.com/seemoo-lab/nexmon_csi) e [Nexmonster_CSI](https://github.com/nexmonster/nexmon_csi/tree/pi-5.10.92)
 
 2. **Coleta de dados CSI**
 
