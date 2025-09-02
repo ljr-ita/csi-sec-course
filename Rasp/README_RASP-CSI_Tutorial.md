@@ -37,3 +37,4 @@ To access the output file created after to capture you can create a SFTP server:
   4. Check all files in current folder (mus be the path when you captured CSI data) `ls -F | grep -v /`;
   5. Get the file `get <file_name.pcap>`.
 
+Now the .pcap file can be converted to amplitude and phase values from each subcarrier running the code in [conversor](https://github.com/ljr-ita/csi-sec-course/blob/main/Rasp/Conversor_amp_pha_CSIdata_rasp.ipynb)
