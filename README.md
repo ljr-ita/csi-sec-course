@@ -103,7 +103,7 @@ csi-sec-course/
 
 2. Siga os tutoriais de configuração em **esp32/** e **raspberry/** para preparar os dispositivos.
 
-3. Execute os notebooks em **Google Colab** (sem necessidade de configuração local).
+3. Execute o Dashboard no **Google Colab** em [dash_link](https://colab.research.google.com/drive/1SRxBt9UCCeovy88kPLbYjfSSCQKyL_f4?usp=sharing).
 
 4. Explore os exemplos de **visualização e classificação** com ML.
 
