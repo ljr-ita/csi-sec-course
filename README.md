@@ -150,11 +150,21 @@ Repositório mantido em: [CSI-Sec-Course](https://github.com/ljr-ita/csi-sec-cou
 
 ================================
 ```bibtex
-@misc{sbsseg2025_minicurso,
-  author       = {Autor(es) do minicurso},
-  title        = {SBSeg2025 - Minicurso 4: Wi-Fi Sensing e CSI aplicados à Cibersegurança: Fundamentos, Aplicações e Prática},
-  year         = {2025},
-  howpublished = {\url{https://}},
-  note         = {Acessado em: XX xxx 2025}
+@incollection{Almeida2025_WiFiCSI,
+  author    = {Felipe Silveira de Almeida and Eduardo Fabrício Gomes Trindade
+               and Gioliano de Oliveira Braga and {\'A}gney Lopes Roth Ferraz
+               and Giovani Hoff da Costa and Gustavo Cavalcanti Morais
+               and Lourenço Alves Pereira J{\'u}nior},
+  title     = {Wi-Fi Sensing e CSI aplicados {\`a} Ciberseguran{\c{c}}a: Fundamentos, Aplica{\c{c}}{\~o}es e Pr{\'a}tica},
+  booktitle = {Minicursos do XXV Simp{\'o}sio Brasileiro de Ciberseguran{\c{c}}a},
+  editor    = {Diogo Menezes Ferrazani Mattos and C{\'i}ntia Borges Margi
+               and Rodrigo Brand{\~a}o Mansilha and Altair Santin
+               and Andr{\'e} Gr{\'e}gio and Eduardo Kugler Viegas},
+  publisher = {Sociedade Brasileira de Computa{\c{c}}{\~a}o},
+  address   = {Porto Alegre, RS, Brasil},
+  year      = {2025},
+  chapter   = {4},
+  pages     = {144--187},
+  doi       = {10.5753/sbc.17851.3.4}
 }
 ```
