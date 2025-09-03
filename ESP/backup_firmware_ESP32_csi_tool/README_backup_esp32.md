@@ -1,5 +1,6 @@
 
-To follow this tutorial you need already installed the [ESP-IDF v5.x](https://github.com/espressif/esp-idf.git) and [ESP-CSI](https://github.com/espressif/esp-csi.git) 
+To successfully follow this tutorial, it is required that the development environment is already configured with [ESP-IDF v5.x](https://github.com/espressif/esp-idf.git) and the [ESP-CSI](https://github.com/espressif/esp-csi.git) framework properly installed.
+
 ```
 git clone --branch release/v5.5 https://github.com/espressif/esp-idf.git
 ```
