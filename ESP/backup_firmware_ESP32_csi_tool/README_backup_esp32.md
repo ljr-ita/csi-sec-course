@@ -1,42 +1,73 @@
-## Welcome to session of backup ESP firmware  
 
-This session is split into two parts:  
-  1. First Part – Backing up the bootloader + partition table + app from the ESP;  
-  2. Second Part – Recovering firmware data on another ESP.  
+To follow this tutorial you need already installed the [ESP-IDF v5.x](https://github.com/espressif/esp-idf.git) and [ESP-CSI](https://github.com/espressif/esp-csi.git) 
+```
+git clone --branch release/v5.5 https://github.com/espressif/esp-idf.git
+```
 
-     
-### Pt. 1 - Backup
-  - Check the cryptography on the ESP (encrypted flash or secure boot):    
-	\>>> ls /dev/tty* 		                                # check your USBPort  
-    \>>> espefuse.py --port /dev/ttyUSB[**X**] summary    # 'X' is the number corresponding to the USB port connected to the ESP  
+**Firmware Backup and Recovery Procedure for ESP Devices**
 
-  - The following indicators show that the firmware is unprotected:  
-    \>>> FLASH_CRYPT_CNT = 0 → indica que a criptografia da flash não está ativada.  
-    \>>> ABS_DONE_0 = False / ABS_DONE_1 = False → indica que o Secure Boot não está ativo.  
+This session is divided into two main stages:
 
-  - Download the file dump_esp32_firmware.sh and make it executable:  
-    \>>> chmod +x dump_esp32_firmware.sh                  # change its permission  
-    \>>> ./dump_esp32_firmware.sh /devttyUSB[**X**]       # here, 'X' is the number of the ESP that currently has the firmware installed  
+1. **Backup Process** – Extraction of the *bootloader*, *partition table*, and *application firmware* from the ESP device.
+2. **Recovery Process** – Restoration of the extracted firmware data onto another ESP device.
 
-    Running the script will generate three files (bootloader + partition table + app):    
-      aap.bin  
-      bootloader.bin  
-      partition-table.bin  
+---
 
-    If the process completes without errors, the backup is successful.  
+### Part I – Firmware Backup
 
-### Pt. 2 - Recover on another ESP   
-  - In same path that contains the three files generated, run:  
-    \>>> esptool.py -p /dev/ttyUSB0 write_flash 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 app.bin  
+1. **Verification of Security Configurations**
+   It is essential to verify whether the ESP device employs cryptographic protection mechanisms such as *encrypted flash* or *secure boot*. This can be achieved using the following commands:
 
-    Success is confirmed if the following output appears:  
-      Uploading stub...  
-      Running stub...  
-      Stub running...  
-      
-      Leaving...  
-      Hard resetting via RTS pin...
-    
+   ```bash
+   ls /dev/tty*               # Identify the USB port in use
+   espefuse.py --port /dev/ttyUSB[X] summary   # '[X]' corresponds to the USB port number
+   ```
 
-\>>> **Now, enjoying your new toy!**
+   Indicators of an **unprotected firmware** include:
+
+   * `FLASH_CRYPT_CNT = 0` → Flash encryption is disabled.
+   * `ABS_DONE_0 = False / ABS_DONE_1 = False` → Secure Boot is disabled.
+
+2. **Execution of the Backup Script**
+   First, download the script `dump_esp32_firmware.sh` and assign execution permissions:
+
+   ```bash
+   chmod +x dump_esp32_firmware.sh
+   ./dump_esp32_firmware.sh /dev/ttyUSB[X]   # Replace '[X]' with the appropriate port number
+   ```
+
+   Upon successful execution, the following binary files are generated:
+
+   * `app.bin`
+   * `bootloader.bin`
+   * `partition-table.bin`
+
+   If no errors occur, the backup process is considered complete.
+
+---
+
+### Part II – Firmware Recovery on Another ESP
+
+To restore the firmware onto a different ESP device, ensure that the three binary files are located in the current working directory, and execute the following command:
+
+```bash
+esptool.py -p /dev/ttyUSB0 write_flash 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 app.bin
+```
+
+Successful recovery is confirmed when the output contains:
+
+```
+Uploading stub...
+Running stub...
+Stub running...
+Leaving...
+Hard resetting via RTS pin...
+```
+
+---
+
+### Conclusion
+
+This procedure enables both the preservation and replication of ESP firmware in a reliable manner. The backup phase ensures the secure storage of essential components, while the recovery phase allows for the deployment of identical firmware configurations across multiple devices.
+
 
