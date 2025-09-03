@@ -59,7 +59,7 @@ You must change the UART console baud rate as shown in the image below:
 After you make the change in menuconfig, follow the next instructions:
 ```
 idf.py build               #It compiles and links your project into a binary file for the ESP32
-#Until step above, you don't need have your ESP32 connect to USB, but to step below you need do it
+                           #Until step above, you don't need have your ESP32 connect to USB, but to step below you need do it
 idf.py -p /dev/ttyUSB[X] flash -b 921600      #It's used to upload the compiled code to the ESP32 chip
 ```
 The firmware **`csi console_test`** is now running on the ESP32.
