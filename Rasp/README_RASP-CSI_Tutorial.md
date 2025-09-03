@@ -1,6 +1,6 @@
 
 
-**CSI Data Acquisition Procedure**
+## **CSI Data Acquisition Procedure**
 
 To enable Channel State Information (CSI) data collection, it is first necessary to follow the setup instructions provided in the *Getting Started* section of the [**Nexmonster Repository**](https://github.com/nexmonster/nexmon_csi/tree/pi-5.10.92). The contributions of Matthias Schulz, Daniel Wegemer, Matthias Hollick, Francesco Gringoli, and Jakob Link are duly acknowledged for their work referenced herein.
 
