@@ -71,10 +71,14 @@ csi-sec-course/
 │   ├── filter_rasp.ipynb #Filtro com gráficos para Rasp (eliminação de outliers)
 │   └── Preprocessing*    #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
 ├── notebooks/            #Jupyter Notebooks e Dashboard
-│   ├── app_deploy.py            #Dashboard usando o banco de dados 'DB_Gender'
+│   ├── app_deploy.py     #Dashboard usando o banco de dados 'DB_Gender'
 │   └── Preprocessing*    #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
-├── DB_Gender             #Banco de dados para rodar o Dashboard
-├── datasets              #Banco de dados handpass e spider-sense
+├── DB_Gender/
+│   ├── DB_gender_8p.csv  #Banco de dados para rodar o Dashboard e usado no notebook
+│   └── DB_gender_2p.csv  #Banco de dados usado no notebook
+├── datasets/
+│   ├── DB_handpass.csv      #Banco de dados usado no notebook
+│   └── DB_spider-sense.csv  #Banco de dados usado no notebook
 └── README.md
 ```
 
