@@ -27,6 +27,10 @@ Where:
 * `-l` → Datagram size (here, 1400 bytes).
 * `-p` → Port number used for communication (which must match the configuration on the Raspberry Pi).
 
+The layout of iPerf2 for Android is similar to the image below.
+
+![iPerf2](https://github.com/user-attachments/assets/9f644faf-10e6-48a3-827b-882a90ab5938)
+
 ---
 
 ### CSI Data Capture
