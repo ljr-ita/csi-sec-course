@@ -73,8 +73,8 @@ csi-sec-course/
 │
 └── README.md
 ```
-* **Notebook Spider-sense**: [Colab5](https://colab.research.google.com/drive/1ch9P5nZ40O2V4S31SGjaNqjx1tDylLqc?usp=sharing)
-* **Notebook Handpass**: [Colab6](https://colab.research.google.com/drive/1Ifu2PIgSPsxw4DMxt86Liam9CgiFcEv2?usp=sharing)
+* **Notebook Spider-sense**: [GoogleColab_Spider-sense](https://colab.research.google.com/drive/1ch9P5nZ40O2V4S31SGjaNqjx1tDylLqc?usp=sharing)
+* **Notebook Handpass**: [GoogleColab_Handpass](https://colab.research.google.com/drive/1Ifu2PIgSPsxw4DMxt86Liam9CgiFcEv2?usp=sharing)
 
 
 ---
