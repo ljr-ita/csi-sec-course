@@ -39,12 +39,12 @@ O repositório organiza todo o conteúdo em forma de **Pipeline e Dashboard prá
    * Utilização do `esp_csi_tool.py` (ESP32)
    * Utilização do `nexmon_csi` (Raspberry Pi4 - **BCM43455c0**)
 
-3. **Conversão dos dados** em [conversor](https://colab.research.google.com/drive/1FRaAT8DRVYhVs-cR9nTWevtEcgdXA9Oj?usp=sharing)
+3. **Conversão dos dados** 
 
    * Transformação de dados CSI **complexos/binários** para **amplitude e fase**
    * Scripts em **Python + Jupyter Notebooks**
 
-4. **Filtros, Pré-Processamento e Visualização dos Dados** em [filter](https://colab.research.google.com/drive/1IvP7TYWbTOz2F1XwMMLiYumFG7ECS0Bu?usp=sharing)
+4. **Filtros, Pré-Processamento e Visualização dos Dados**
 
    * Remoção de **outliers**
    * Normalização e preparação para algoritmos de ML
@@ -70,17 +70,12 @@ csi-sec-course/
 │   ├── Conversor_*.ipynb #Script de captura de dados CSI e conversão em amplitude e fase (para Rasp)
 │   ├── filter_rasp.ipynb #Filtro com gráficos para Rasp (eliminação de outliers)
 │   └── Preprocessing*    #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
-├── notebooks/            #Jupyter Notebooks e Dashboard
-│   ├── app_deploy.py     #Dashboard usando o banco de dados 'DB_Gender'
-│   └── Preprocessing*    #Filtros, pré-processamento, visualização de dados, treinamento e classificação de modelos
-├── DB_Gender/
-│   ├── DB_gender_8p.csv  #Banco de dados para rodar o Dashboard e usado no notebook
-│   └── DB_gender_2p.csv  #Banco de dados usado no notebook
-├── datasets/
-│   ├── DB_handpass.csv      #Banco de dados usado no notebook
-│   └── DB_spider-sense.csv  #Banco de dados usado no notebook
+│
 └── README.md
 ```
+* **Notebook Spider-sense**: [Colab5](https://colab.research.google.com/drive/1ch9P5nZ40O2V4S31SGjaNqjx1tDylLqc?usp=sharing)
+* **Notebook Handpass**: [Colab6](https://colab.research.google.com/drive/1Ifu2PIgSPsxw4DMxt86Liam9CgiFcEv2?usp=sharing)
+
 
 ---
 
