@@ -93,23 +93,6 @@ csi-sec-course/
 
 ---
 
-## 🚀 Como Usar
-
-1. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/ljr-ita/csi-sec-course.git
-   cd csi-sec-course
-   ```
-
-2. Siga os tutoriais de configuração em **esp32/** e **raspberry/** para preparar os dispositivos.
-
-3. Execute o Dashboard no **Google Colab** em [dash_link](https://colab.research.google.com/drive/1SRxBt9UCCeovy88kPLbYjfSSCQKyL_f4?usp=sharing).
-
-4. Explore os exemplos de **visualização e classificação** com ML em [notebook](https://colab.research.google.com/drive/1n7FFGbKWFlyAUlM74drRR6mJsy-prQG1?usp=sharing)
-
----
-
 ## 👥 Público-Alvo
 
 Este minicurso é voltado para:
